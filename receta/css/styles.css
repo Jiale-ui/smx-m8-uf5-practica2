@@ -1,0 +1,24 @@
+.centrada {
+    text-align: center;
+    color: white;
+    background-color: #653920;
+}
+.ing {
+    text-align: center;
+    background-color: #f2d48a;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.texto {
+    display: flex;
+    align-items: center;
+}
+.foto {
+    margin-right: 150px;
+}
+.ins {
+    text-align: center;
+    color: #351b0d;
+    background-color: #ad916c;
+    text-decoration: underline;
+}

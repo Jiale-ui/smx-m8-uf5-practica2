@@ -1,0 +1,33 @@
+.come {
+ text-align: center;
+ font-style: oblique;
+ font-size: 5em;
+ color: #bcdfd4;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ border: 2px;
+ padding: 100px;
+}
+.menu {
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+    color: #b3cbd8;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px;
+    padding: 100px;
+}
+body {
+    background-image: url(../img/BP.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  }

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles3.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script>
+        function redirigirAlEnlace(selectElement) {
+      var url = selectElement.value;
+      if (url) {
+        window.location.href = url;
+       }
+    }
+    </script>
+</head>
+<body>
+    <h1 class="come">Welcome</h1>
+    <div class="menu">
+        <form>
+            <label for="menu">Selecciona una receta:</label>
+            <select id="menu" name="menu" onchange="redirigirAlEnlace(this)">
+              <option value="">--Seleccionar--</option> <!-- Opción por defecto -->
+              <option value="html/pancake.html">Pancake</option>
+              <option value="html/brownie.html">Brownie</option>
+            </select>
+</div>
+
+    
+</body>
+</html>

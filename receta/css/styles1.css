@@ -1,0 +1,23 @@
+body {
+  background-color: #dbd8d8;
+}
+.centrado {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+.ingredientes {
+ text-align: center;
+ background-color: #cbbfd8;
+}
+.necesita {
+  display: flex;
+  align-items: center;
+}
+.texto {
+  margin-right: 200px;
+}
+.instruccions {
+  text-align: center;
+  background-color: #e8c4c0;
+}
